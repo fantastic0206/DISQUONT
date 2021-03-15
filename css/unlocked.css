@@ -1,0 +1,178 @@
+.container-fluid .container .title-contentpage {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.container-fluid .container .title-row p {
+    font-size: 18px;
+}
+
+.container-fluid .container .title-body-row {
+    margin-top: 50px;
+}
+
+.container-fluid .container .title-body-row h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-fluid .container .title-body-row p {
+    color: #999;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.container-fluid .container .title-body-row a {
+    color: #f36431;
+}
+
+.container-fluid .container .product-item {
+	background-color: #fff!important;
+	/* border: 1px solid #ccc; */
+	margin: 10px 0;
+	height: 150px;
+    padding: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.container-fluid .container .product-item .product-desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-fluid .container .product-item .product-common-size {
+    height: 100px;
+}
+
+.container-fluid .container .product-item .product-orange {
+    background-color: #f36431;
+}
+
+.container-fluid .container .product-item .product-blue {
+    background-color: #0084d0;
+}
+
+.container-fluid .container .product-item .product-green {
+    background-color: #29bb52;
+}
+
+.container-fluid .container .product-item .product-midden {
+    background-color: #969696;
+}
+
+.container-fluid .container .product-item .product-default {
+    background-color: #f6f6f6;
+}
+
+.container-fluid .container .product-item .product-black {
+    background-color: #3d3d3d;
+}
+
+.container-fluid .container .btns-group-form {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+    padding-bottom: 5rem;
+}
+
+.container-fluid .container .btns-group-border-bottom {
+    margin-bottom: 80px;
+}
+
+.container-fluid .container .btns-group-form h3 {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.container-fluid .container .btns-group-form .txt-group {
+    display: flex;
+}
+
+.container-fluid .container .btns-group-form .txt-group p {
+    color: #999;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.container-fluid .container .btns-group-form .txt-group i {
+    color: black;
+    font-size: 9px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.container-fluid .container .btns-group-form .txt-group .fa-check {
+    font-size: 15px;
+    padding-top: 5px;
+    color: #29bb52;
+}
+
+.container-fluid .container .btns-group button {
+    width: 190px;
+    height: 50px;
+}
+
+.container-fluid .container .btns-group .btn-none {
+    background-color: unset;
+    border: 2px solid #f36431;
+    color: #f36431;
+    font-size: 18px;
+}
+
+.container-fluid .container .btns-group .btn-orange {
+    background-color: #f36431;
+    color: white;
+    font-size: 18px;
+}
+
+.container-fluid .container .btns-group .btn-blue {
+    background-color: #0084d0;
+    color: white;
+    font-size: 18px;
+}
+
+.container-fluid .container .btns-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.common-h4-color {
+    color: #999;
+}
+
+.font-group .i-parent i {
+    color: #0084d0;
+    font-size: 30px;
+}
+
+.font-group .i-parent {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.font-group h4 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.font-group p {
+    font-size: 16px;
+    color: #999;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.font-group .a-center a {
+    font-size: 16px;
+    color: #f36431;
+}
+
+.font-group .a-center {
+    text-align: center;
+}

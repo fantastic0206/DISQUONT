@@ -1,0 +1,112 @@
+.carousel {
+  position: relative;
+}
+/* .container {
+  position: absolute;
+  top: 10%;
+  text-align: center;
+} */
+.attibute-icon img {
+  text-align: center;
+}
+.attibute-title {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 45px;
+  text-align: center;
+}
+.attibute-detail {
+  font-size: 18px;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 30px;
+  margin-top: 15px;
+  text-align: center;
+}
+.feedback_card {
+  border: 1px solid #dddcdc;
+  box-shadow: 2px ​2px 10px grey;
+}
+.avatar {
+  padding: 0;
+}
+.feed_header {
+  font-size: 14px;
+  color: #969696;
+  margin-top: 30px;
+}
+.feed_deatil {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3d3d3d;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.feed_footer {
+  font-size: 12px;
+  color: #969696;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.feed_name {
+  font-size: 12px;
+  color: #969696;
+  font-weight: bold;
+}
+.all_cards {
+  margin-top: 25px;
+}
+.btn_cratis {
+  padding: 15px 95px;
+  background-color: #f36431;
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px rgb(0 0 0 / 30%);
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  transition: 0.2s;
+  outline-style: none;
+  border: none;
+}
+.btn_cratis:focus {
+  outline-style: none;
+  border: none;
+}
+
+.image-section{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #999;
+    margin: 0 0 20px 0;
+}
+.image-section img{
+    width: 50%;
+}
+.image-section .image-section-detail{
+    padding: 55px 20px;
+}
+.image-section .image-section-detail p{
+    color: #999;
+}
+.image-section .image-section-detail h4{
+    padding: 40px 0;
+}
+.product-section{
+}
+.product-section img{
+    width: 100%;
+}
+
+.beki-section p{
+  color: #999;
+  margin: 30px 0;
+}
+.beki-section h3{
+  margin: 50px 0;
+}
+.beki-section .btn_cratis{
+  margin: 30px 0 100px 0;
+}
+

@@ -1,0 +1,100 @@
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: #0084d0; 
+            /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.panel-default>.panel-heading, .panel-default{
+    padding: 0 20px!important;
+    background-color: #fff;
+}
+.faq-section {
+        margin-top: 30px;
+        background-color: #f6f6f6;
+}
+.faq-section ul li a{
+        background-color: unset !important;
+        color: #0888d1 !important;
+}
+.faq-section ul li a:focus{
+        background-color: unset;
+        border-bottom: none;
+}
+.faq-section ul li a:hover{
+        border-left: 3px solid #0888d1;
+        border-radius: 0;
+        background-color: unset;
+}
+.h-500 {
+        height: 500px;
+        overflow: auto;
+}
+.accordion-toggle{
+    padding: 10px 0;
+}
+.faq-title{
+    color: #0084d0;
+    padding: 20px 0;
+}
+.product-cate-section{
+    padding: 100px 0;
+}
+.image-product-section{
+    background-color: #fff;
+    padding: 100px 0;
+}
+.image-product-section .image-section{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #999;
+    padding: 20px;
+    margin: 0 0 20px 0;
+}
+.image-product-section .image-section img{
+    width: 50%;
+}
+.image-product-section .image-section .image-section-detail{
+    padding: 55px 20px;
+}
+.image-product-section .image-section .image-section-detail p{
+    color: #999;
+}
+.image-product-section .image-section .image-section-detail h4{
+    padding: 40px 0;
+}
+.image-product-section .product-section{
+}
+.product-section img{
+    width: 100%;
+}
+.product-section .product-section-btn{
+    padding: 20px 70px;
+    background-color: #f36431;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px #999;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    color: white;
+    transition: 0.2s;
+    margin: 20px 0;
+    position: absolute;
+    left: calc(50% - 105px);
+    bottom: 5%;
+}
+@media screen and (max-width: 767px){
+    .image-product-section .image-section .image-section-detail{
+        padding: 55px 0;
+    }
+    .image-product-section .image-section{
+        margin: 0 15px 20px 15px;
+    }
+}

@@ -1,0 +1,345 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+.nav-bg{
+	height: 140px;
+	padding: 0;
+	background-color: #0084d0;
+}
+
+.nav-menu{
+	padding: 55px 0 0 0;
+	margin: 0 40px;
+}
+
+.navbar-toggle .icon-bar{
+	background-color: #f17128;
+}
+.navbar-header{
+
+}
+.btn-lg-rg ul li{
+	list-style: none;
+}
+.btn-lg-rg .navbar-right{
+	margin: 18px 0 0 0;
+	display: flex;
+	flex-direction: row;
+}
+.btn-lg-rg .navbar-right li{
+	margin: 0 20px;
+}
+.btn-lg-rg .navbar-right li a{
+	font-weight: 700;
+	text-decoration: none;
+	transition: 0.2s;
+}
+.btn-lg-rg .navbar-right li a:hover{
+	color: #fff;
+	opacity: 0.8;
+	transition: 0.2s;
+}
+.btn-lg-rg .navbar-right-btn{
+	margin: 30px 0 0 0;
+}
+.btn-lg-rg .navbar-right-btn li a{
+	padding: 24px 85px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #f36431;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px rgb(0 0 0 / 30%);
+    text-decoration: none;
+	transition: 0.2s;
+}
+.btn-lg-rg .navbar-right-btn li a:hover{
+	background-color: #fd7646;
+	transition: 0.2s;
+}
+.btn-lg-rg ul li a{
+	color: white;
+}
+.navbar-nav>li>a{
+	height: 84px;
+	margin: 0 20px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	transition: 0.2s;
+}
+.navbar-brand>img{
+	margin-top: 10px;
+}
+.navbar-nav>li>a:hover{
+	border-bottom: 7px solid #f36431;
+	background-color: transparent;
+	transition: 0.2s;
+}
+.nav>li>a:focus{
+	border-bottom: 7px solid #f36431;
+	outline-style: none;
+	background-color: transparent;
+	transition: 0.2s;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-brand{
+	padding: 3px 0;
+}
+@media screen and (max-width: 1600px) {
+	.nav-menu{
+		margin: 0;
+	}
+	.navbar-nav>li>a{
+		margin: 0;
+	}
+}
+@media screen and (max-width: 1400px) {
+	.navbar-nav>li>a{
+		padding: 10px 5px;
+		font-size: 16px;
+	}
+	.btn-lg-rg .navbar-right-btn li a{
+		padding: 17px 75px;
+	}
+	.navbar-brand>img{
+    	width: 300px;
+		margin-top: 30px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.btn-lg-rg .navbar-right{
+		margin: 15px 0 0 0;
+		padding: 0 0 0 10px;
+	    display: flex;
+		flex-direction: column;
+	}
+	.btn-lg-rg .navbar-right-btn li a{
+		padding: 10px 20px;
+	}
+	.btn-lg-rg .navbar-right li a{
+		font-size: 12px;
+	}
+	.btn-lg-rg .navbar-right-btn{
+		padding: 0 0 0 10px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.navbar-brand>img{
+		width: 250px;
+    	margin-top: 35px;
+	}
+	.navbar-nav>li>a{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.container-fluid>.navbar-collapse{
+		background-color: #fff;
+		z-index: 1000;
+		position: absolute;
+		width: 100%;
+		box-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
+	}
+	.nav>li>a:focus{
+		border-bottom: 1px solid #f36431;
+	}
+	.navbar-brand>img{
+		margin-top: 0;
+	}
+	.navbar-brand img{
+		width: 175px;
+	}
+	.nav-bg{
+		height: 50px;
+	}
+	.nav-menu{
+		padding: 5px 0 0 0;
+		margin: 0 20px;
+		background-color: #fff;
+	}
+	.nav-menu li{
+		height: 40px;
+	}
+	.nav-menu li a{
+		height: 40px;
+		color: black;
+	}
+	.btn-lg-rg{
+		background-color: #fff;
+		border-top: 1px solid #eee;
+		border-bottom: 1px solid #eee;
+	}
+	.btn-lg-rg ul li a{
+		color: black;
+	}
+	.btn-lg-rg .navbar-right-btn{
+		margin: 25px 0 40px 0;
+		display: flex;
+		justify-content: center;
+	}
+	.navbar-nav>li>a:hover{
+		border-bottom: 1px solid #f36431;
+		background-color: transparent;
+		transition: 0.2s;
+	}
+	.btn-lg-rg .navbar-right-btn li a{
+		padding: 15px 73px;
+	}
+	.btn-lg-rg .navbar-right{
+		display: flex;
+		justify-content: center;
+	}
+	.btn-lg-rg .navbar-right li{
+		margin:0 auto;
+	}
+	.btn-lg-rg .navbar-right li a:hover{
+		color: #000;
+		opacity: 0.8;
+		transition: 0.2s;
+	}
+	
+}
+@media screen and (max-width: 488px) {
+	.btn-lg-rg .navbar-right-btn li a{
+		padding: 10px 73px;
+	}
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+    border-bottom: unset;
+}
+
+.modal .modal-dialog .modal-content .img-icon-lock::before,
+.modal .modal-dialog .modal-content .img-icon-lock::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid #ccc;
+    width: 37%;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+
+.modal .modal-dialog .modal-content .modal-body .modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.modal .modal-dialog .modal-content .modal-body .input-group-addon {
+    background-color: #ffffff !important;
+    border-right: none;
+}
+
+.modal .modal-dialog .modal-content .modal-body .input-item {
+    border-left: none;
+}
+
+.modal .modal-dialog .modal-content .modal-body .input-item:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #ccc;
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-group {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-group .input-group span {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-group .input-group input {
+    height: 46px;
+    padding-left: 0;
+}
+
+.modal .modal-dialog .modal-content .modal-body .form-group button {
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #f36431;
+    box-shadow: 2px 3px 3px rgb(0 0 0 / 30%);
+    color: white;
+}
+
+#contactModal .modal-content {
+    background-color: #0084d0;
+    color: white;
+}
+
+.form-login label, .form-login i {
+    color: #999;
+}
+
+.form-login-button {
+    margin-top: 3rem;
+}
+
+.form-login-button button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login-bottom {
+    color: #999;
+    text-align: center;
+    font-size: 14px;
+}
+
+.login-bottom a {
+    color: #f36431;
+}
+
+#contactModal .modal-content {
+    width: 90%;
+}
+
+#contactModal h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#contactModal h4 {
+    font-size: 16px;
+    margin-bottom: 3rem;
+}
+
+#contactModal .btn-arrow {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#contactModal button {
+    width: 180px;
+    height: 50px;
+    color: #0084d0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#contactModal button i {
+    font-size: 12px;
+    margin-left: .75rem;
+}
+
+#contactModal label {
+    font-weight: 100;
+}
+@media screen and (max-width: 767px){
+	.modal-backdrop{
+		z-index: 10;
+	}
+}

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>wordlid</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/home.css" />
+    <link rel="stylesheet" type="text/css" href="./css/header.css" />
+    <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./css/wordlid.css" />
+  </head>
+
+  <body>
+    <header>
+    <nav class="navbar">
+      <div class="container-fluid nav-bg">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav nav-menu">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active"><a href="deal.html">Deals</a></li>
+            <li class="active"><a href="members.html">Members Only</a></li>
+            <li class="active"><a href="werkthet.html">Hoe Werkt het?</a></li>
+            <li class="active"><a href="winnaar.html">Winnaars</a></li>
+          </ul>
+          <div class="btn-lg-rg" style="display: flex;flex-direction: column;">
+            <ul class="navbar-right">
+              <li><a href="" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-user"></span>LOGIN</a></li>
+              <li><a href="" data-toggle="modal" data-target="#contactModal"><span class="glyphicon glyphicon-log-in"></span>CONTACT</a></li>
+            </ul>
+            <div class="modal fade" id="loginModal" role="dialog">
+              <div class="modal-dialog">
+              
+                <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                  <div class="modal-body">
+                    <h4 class="modal-title text-center">Login om Member exclusive <br>production te bekijen</h4>
+                    <div class="img-icon-lock">
+                      <img src="./images/member/icon-lock.png">
+                    </div>
+                    <div class="form-group form-login">
+                      <label>Gebruikersnaam</label>
+                      <div class="input-group">
+                        <span class="input-group-addon icon-item"><i class="fa fa-user"></i></span>
+                        <input class="form-control input-item" type="text">
+                      </div>
+                    </div>
+                    <div class="form-group form-login">
+                      <label>Wachtwoord</label>
+                      <div class="input-group">
+                        <span class="input-group-addon icon-item"><i class="fa fa-lock"></i></span>
+                        <input class="form-control input-item" type="text">
+                      </div>
+                    </div>
+                    <div class="form-group form-login-button">
+                      <button class="btn btn-orange">Let's go</button>
+                    </div>
+                    <h4 class="login-bottom">Nog geen lid? Abonneer dan <a href="">hier</a></h4>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="modal fade" id="contactModal" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <h3 class="text-center">Welkom op de Members-only pagina!</h3>
+                    <h4 class="text-center">Vanaf nu kun je onbeperkt luxe <br>producten kopen!</h4>
+                    <div class="btn-arrow"><button class="btn btn-default">Aan de slag! <i class="fa fa-arrow-right"></i></button></div>
+                    <label>1/4</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="navbar-right-btn">
+              <li><a href="wordlid.html">Word Lid</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <div class="body">
+      <div class="container-fluid slider-section">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./images/world-lid/slider-back.png" alt="Los Angeles" />
+            </div>
+            <div class="item">
+              <img src="./images/world-lid/slider-back.png" alt="Chicago" />
+            </div>
+            <div class="item">
+              <img src="./images/world-lid/slider-back.png" alt="New york" />
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#myCarousel"
+            data-slide="next"
+          >
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 price_card">
+          <div class="price_heacer">
+            <div class="price_notify">notiry</div>
+            <div class="price_title">1 JAAR</div>
+            <div class="price_detail">Onbeperikt toegang tot luxe deals</div>
+            <div class="price_img"></div>
+            <div class="price_detail">Dat is x cent per dag</div>
+          </div>
+          <div class="price_check_list">
+            <ul>
+              <li>Veel exclusieve veilingen</li>
+              <li>Een seintje bij een bepaald bedrag</li>
+              <li>Snellere daling in prijs</li>
+              <li>Informatie over komende veilingen</li>
+            </ul>
+          </div>
+          <button class="btn_cratis">Let's go!</button>
+          <div class="price_footer">Dit is een garantietekst</div>
+        </div>
+        <div class="col-sm-3 price_card">
+          <div class="price_heacer">
+            <div class="price_notify">notiry</div>
+            <div class="price_title">1 JAAR</div>
+            <div class="price_detail">Onbeperikt toegang tot luxe deals</div>
+            <div class="price_img"></div>
+            <div class="price_detail">Dat is x cent per dag</div>
+          </div>
+          <div class="price_check_list">
+            <ul>
+              <li>Veel exclusieve veilingen</li>
+              <li>Een seintje bij een bepaald bedrag</li>
+              <li>Snellere daling in prijs</li>
+              <li>Informatie over komende veilingen</li>
+            </ul>
+          </div>
+          <button class="btn_cratis">Let's go!</button>
+          <div class="price_footer">Dit is een garantietekst</div>
+        </div>
+        <div class="col-sm-3 price_card">
+          <div class="price_heacer">
+            <div class="price_notify">notiry</div>
+            <div class="price_title">1 JAAR</div>
+            <div class="price_detail">Onbeperikt toegang tot luxe deals</div>
+            <div class="price_img"></div>
+            <div class="price_detail">Dat is x cent per dag</div>
+          </div>
+          <div class="price_check_list">
+            <ul>
+              <li>Veel exclusieve veilingen</li>
+              <li>Een seintje bij een bepaald bedrag</li>
+              <li>Snellere daling in prijs</li>
+              <li>Informatie over komende veilingen</li>
+            </ul>
+          </div>
+          <button class="btn_cratis">Let's go!</button>
+          <div class="price_footer">Dit is een garantietekst</div>
+        </div>
+        <div class="col-sm-3 price_card">
+          <div class="price_heacer">
+            <div class="price_notify">notiry</div>
+            <div class="price_title">1 JAAR</div>
+            <div class="price_detail">Onbeperikt toegang tot luxe deals</div>
+            <div class="price_img"></div>
+            <div class="price_detail">Dat is x cent per dag</div>
+          </div>
+          <div class="price_check_list">
+            <ul>
+              <li>Veel exclusieve veilingen</li>
+              <li>Een seintje bij een bepaald bedrag</li>
+              <li>Snellere daling in prijs</li>
+              <li>Informatie over komende veilingen</li>
+            </ul>
+          </div>
+          <button class="btn_cratis">Let's go!</button>
+          <div class="price_footer">Dit is een garantietekst</div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid klanten-mat-section">
+      <div class="container">
+        <div class="title">Klanten beoordelen ons met:</div>
+        <div class="rating text-center">
+          <img src="./images/home/icons/star-full.png" alt="star" />
+          <img src="./images/home/icons/star-full.png" alt="star" />
+          <img src="./images/home/icons/star-full.png" alt="star" />
+          <img src="./images/home/icons/star-full.png" alt="star" />
+          <img src="./images/home/icons/star-space.png" alt="star" />
+        </div>
+        <div class="product-cate-item text-center">
+          <p>Op basis van 347 beoordelingen</p>
+        </div>
+      </div>
+    </div>
+    <div class="cratis-back">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-5">
+            <div class="cratis-content">
+              <div class="small_title text-uppercase">actie</div>
+              <div class="small_content">Wordt nu lid en krijg</div>
+              <div class="small_content">de eerste maand gratis!</div>
+              <button class="btn_cratis">Word lid</button>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row all_cards">
+        <div class="col-sm-6">
+          <div class="feedback_card container-fluid">
+            <div class="row">
+              <div class="col-sm-4 avatar">
+                <img src="./images/home/review-woman.png" alt="" />
+              </div>
+              <div class="col-sm-8">
+                <div class="feedback_content text-center">
+                  <div class="feed_header">Anna - 34</div>
+                  <div class="feed_deatil">
+                    Wat een service, binnen 2 dagen had ik hem!
+                  </div>
+                  <div class="feed_footer">Gewonnen product:</div>
+                  <div class="feed_name">Tesso Blender</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="feedback_card container-fluid">
+            <div class="row">
+              <div class="col-sm-4 avatar">
+                <img src="./images/home/review-man.png" alt="" />
+              </div>
+              <div class="col-sm-8">
+                <div class="feedback_content text-center">
+                  <div class="feed_header">Rob - 55</div>
+                  <div class="feed_deatil">
+                    Ruim 100 euro korting via 24Disqount.com, fantastisch!
+                  </div>
+                  <div class="feed_footer">Gewonnen product:</div>
+                  <div class="feed_name">Dyson Boor</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid product-cate-section">
+      <div class="container">
+        <div class="title">24Disqount</div>
+        <div class="row">
+          <div class="col-md-4 product-cate-item">
+            <img src="./images/home/icons/white-arrow.png" />
+            <p>Luxe voor een spotprijs</p>
+          </div>
+          <div class="col-md-4 product-cate-item">
+            <img src="./images/home/icons/white-arrow.png" />
+            <p>Luxe voor een spotprijs</p>
+          </div>
+          <div class="col-md-4 product-cate-item">
+            <img src="./images/home/icons/white-arrow.png" />
+            <p>Luxe voor een spotprijs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 footer-brand"></div>
+          <div class="col-md-9 footer-ms">
+            <div class="footer-menu-social row">
+              <div class="footer-menu col-md-8 col-sm-6">
+                <a href="#">Home</a>
+                <a href="#">Deals</a>
+                <a href="#">Members only</a>
+                <a href="#">Hoe werkt het?</a>
+                <a class="footer-menu-btn" href="#">Word Lid</a>
+              </div>
+              <div class="footer-social col-md-4 col-sm-6">
+                <a href="#"><img src="./images/home/icons/social1.png" /></a>
+                <a href="#"><img src="./images/home/icons/social2.png" /></a>
+                <a href="#"><img src="./images/home/icons/social3.png" /></a>
+                <a href="#"><img src="./images/home/icons/social4.png" /></a>
+              </div>
+            </div>
+            <div class="footer-copy-payment row">
+              <div class="footer-copy col-md-8 col-sm-6">
+                Copyright 2021 - 24Disqount Alle rechten voorbehouden - Privacy
+                Policy - VoorWaarden
+              </div>
+              <div class="footer-payment col-md-4 col-sm-6">
+                <a href="#"
+                  ><img src="./images/home/icons/payment-visa.png" />
+                </a>
+                <a href="#"
+                  ><img src="./images/home/icons/payment-two.png" />
+                </a>
+                <a href="#"
+                  ><img src="./images/home/icons/payment-pp.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script></script>
+</html>
